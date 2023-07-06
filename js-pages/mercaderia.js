@@ -1,16 +1,22 @@
 const products = JSON.parse(`[
-    { 
-        "id": 1,
-        "name": "Cif Ultrarápido Vidrios",
-        "price": 750,
-        "src": "../images/limpieza/cif-vidrios-dp-604cb82f201b6 repuesto.jpeg"
-    },
-    { 
-        "id": 2,
-        "name": "Magistral: Detergente para Vajillas",
-        "price": 950,
-        "src": "../images/limpieza/detergente-magistral-750cc-.jpg"
-    },
+  { 
+    "id": 1,
+    "name": "Alfajor Milka",
+    "price": 150,
+    "src": "./images/milka 2.jpeg"
+},
+{ 
+    "id": 2,
+    "name": "Yerba Playadito",
+    "price": 850,
+    "src": "./images/playadito.jpeg"
+},
+{ 
+    "id": 3,
+    "name": "Gaseosa Coca-Cola", 
+    "price": 330, 
+    "src": "./images/bebidas/coca-cola-500cc-almacen-gaseosas-casa-segal-mendoza.jpg"
+}
   ]`);
   
   let carrito = [];
